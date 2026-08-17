@@ -2,8 +2,6 @@
 
 **NanoNmD** is a deep learning framework for detecting **2′-O-methylation (Nm)** sites in RNA from Oxford Nanopore Technology (ONT) direct RNA sequencing data.
 
-NanoNmD is a deep learning framework for detecting 2′-O-methylation (Nm) sites in RNA from Oxford Nanopore Technology (ONT) direct RNA sequencing data.
-
 ---
 
 ## Table of Contents
@@ -207,23 +205,6 @@ python test.py \
     --model  checkpoints/Para_0.0001_128_epoch_20model.pth \
     --scaler checkpoints/scaler.pkl \
     --out    results/your_sample_predictions
-```
-
----
-
-## Citation
-
-If you use NanoNmD in your research, please cite:
-
-```bibtex
-@article{NanoNmD,
-  title   = {NanoNmD: A deep learning framework for transcriptome-wide
-             Nm detection from Nanopore direct RNA sequencing},
-  author  = {<Author(s)>},
-  journal = {<Journal>},
-  year    = {<Year>},
-  doi     = {<DOI>}
-}
 ```
 
 ---
