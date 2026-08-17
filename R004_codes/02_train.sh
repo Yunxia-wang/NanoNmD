@@ -18,7 +18,7 @@ conda activate nanonmd
 # ============================================================
 # 0. Basic settings
 # ============================================================
-base_root_dir=/lab-share/Cardio-Chen-e2/Public/Yunxia
+base_root_dir=/your_work_path
 
 root_data_dir=${base_root_dir}/Nm_deep_learning/code/github_NanoNmD/NanoNmD
 

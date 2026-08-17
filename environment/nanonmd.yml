@@ -346,4 +346,3 @@ dependencies:
       - websocket-client==1.6.1
       - widgetsnbextension==4.0.9
       - xgboost==1.6.2
-prefix: /lab-share/Cardio-Chen-e2/Public/Yunxia/software/miniconda/envs/nanonmd
