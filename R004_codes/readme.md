@@ -161,7 +161,7 @@ The output includes PyTorch model checkpoint files (`.pth`) and training metrics
 
 ---
 
-# Directory Layout
+## Directory Layout
 
 With the default configuration, the working directory is organized as follows:
 
@@ -242,7 +242,7 @@ Training checkpoints and metrics are stored in:
 
 ---
 
-# Pre-trained Model & Scaler
+## Pre-trained Model & Scaler
 
 The NanoNmD RNA004 inference workflow requires two files:
 
@@ -251,7 +251,7 @@ The NanoNmD RNA004 inference workflow requires two files:
 
 These files should be placed in the checkpoint directory specified by `01_test.sh`.
 
-## Model Weights
+### Model Weights
 
 The pre-trained model is:
 
@@ -263,7 +263,7 @@ This file contains the trained NanoNmD model parameters.
 
 ---
 
-## Feature Scaler
+### Feature Scaler
 
 The corresponding scaler is:
 
@@ -281,7 +281,7 @@ This ensures that the preprocessing of the test data is consistent with the prep
 
 ---
 
-## Checkpoint Directory
+### Checkpoint Directory
 
 A typical checkpoint directory may therefore contain:
 
