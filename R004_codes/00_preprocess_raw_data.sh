@@ -1,15 +1,4 @@
 #!/bin/bash
-#SBATCH --job-name=R004_features
-#SBATCH --partition=cbp-compute
-#SBATCH -A cbp
-#SBATCH --output=output_R004_features_%A_%a.txt
-#SBATCH --time=140:0:0
-#SBATCH --array=1
-#SBATCH --nodes=1
-#SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=16
-#SBATCH --mem=300G
-#gres=gpu:large:1
 
 date
 # -----------------------------

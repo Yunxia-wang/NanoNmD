@@ -1,14 +1,4 @@
 #!/bin/bash
-#SBATCH --job-name=ctrl1rRNA
-#SBATCH --partition=cbp-compute			# bch-compute,bch-gpu-pe,cbp-compute (-A cbp)
-#SBATCH -A cbp 
-#SBATCH --output=output_ctrl1rRNA_%A_%a.txt
-#SBATCH --time=150:0:0
-#SBATCH --array=1  # 1 is the best option
-#SBATCH --nodes=1
-#SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=16
-#SBATCH --mem=128G
 
 date
 # ------------------------------------------------
