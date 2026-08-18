@@ -50,7 +50,7 @@ Signal & sequence features per site  (.csv.gz)
 
 ```bash
 # 1. Clone this repository
-git clone https://github.com/<your-username>/NanoNmD.git
+git clone https://github.com/Yunxia-wang/NanoNmD.git
 cd NanoNmD
 
 # 2. Create and activate conda environment
