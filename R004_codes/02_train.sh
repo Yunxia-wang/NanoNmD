@@ -8,9 +8,7 @@ conda activate nanonmd
 # ============================================================
 # 0. Basic settings
 # ============================================================
-base_root_dir=/your_work_path
-
-root_data_dir=${base_root_dir}/Nm_deep_learning/code/github_NanoNmD/NanoNmD
+root_data_dir=/your_work_path/NanoNmD
 
 cd ${root_data_dir}
 # ============================================================

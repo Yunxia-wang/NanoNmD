@@ -4,9 +4,8 @@ date
 # -----------------------------
 # Paths
 # -----------------------------
-base_root_dir=/your_work_path
 
-PROJECTDIR="${base_root_dir}/Nm_deep_learning/code/github_NanoNmD/NanoNmD"
+PROJECTDIR="/your_work_path/NanoNmD"
 
 OUTDIR="${PROJECTDIR}/R004_codes/examples/example_data/01_basecall_out"
 REF="${PROJECTDIR}/data/reference/human_uniq.rRNA.fa"
@@ -18,7 +17,7 @@ MOTIF="${PROJECTDIR}/R004_codes/examples/examples_codes/kmer_1024.txt"
 
 # Tool paths
 declare -A programs_array01=(
-    [dorado_basecaller]="${base_root_dir}/software/dorado-1.0.0-linux-x64/bin/dorado"
+    [dorado_basecaller]="${PROJECTDIR}/software/dorado-1.0.0-linux-x64/bin/dorado"
 )
 
 # Threads and model

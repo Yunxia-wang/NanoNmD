@@ -20,10 +20,7 @@ date
 # Only modify this section.
 # ============================================================
 
-base_root_dir=/your_work_dir
-
-
-root_data_dir=${base_root_dir}/Nm_deep_learning/code/github_NanoNmD/NanoNmD
+root_data_dir=/your_work_path/NanoNmD
 
 # ============================================================
 # 0. Basic settings
@@ -52,7 +49,7 @@ SITE_FEATURE_MERGE_DIR="${ROOT_DIR}/04_site_feature_merge"
 # ont-guppy could be downloaded in https://doi.org/10.5281/zenodo.21896153
 # ============================================================
 
-GUPPY_BIN="${base_root_dir}/software/ont-guppy-cpu/bin/guppy_basecaller"
+GUPPY_BIN="${root_data_dir}/software/ont-guppy-cpu/bin/guppy_basecaller"
 
 GUPPY_CFG="rna_r9.4.1_70bps_hac.cfg"
 

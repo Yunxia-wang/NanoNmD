@@ -5,18 +5,18 @@ date
 source ~/.bashrc
 conda activate nanonmd
 
-base_root_dir=/your_work_path
+
 # ============================================================
 # 0. Basic settings
 # ============================================================
-root_data_dir=${base_root_dir}/Nm_deep_learning/code/github_NanoNmD/NanoNmD
+root_data_dir=/your_work_path/NanoNmD
 cd ${root_data_dir}
 
 ROOT_DIR="$(pwd)/examples/example_rRNA"
 SITE_FEATURE_MERGE_DIR="${ROOT_DIR}/04_site_feature"
 
 # ============================================================
-# Test
+# Tranining
 # ============================================================
 
 python ${root_data_dir}/train.py \
