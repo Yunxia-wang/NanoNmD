@@ -65,7 +65,7 @@ conda env create -f environment/nanonmd.yml
 
 ### Step 0 — Prepare your file list
 
-To run the example workflow, navigate to the examples/example_code/ directory and follow the steps outlined in 01_process_nanopore.sh.
+To run the example workflow, navigate to the `examples/example_code/` directory and follow the steps outlined in `01_process_nanopore.sh`.
 
 Create a plain-text file listing every fast5 batch name (one per line, **no `.fast5` extension**, **no directory path**):
 
