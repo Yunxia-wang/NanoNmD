@@ -55,8 +55,7 @@ cd NanoNmD
 
 # 2. Create and activate conda environment
 # Create NanoNmD environment
-conda env create -f environment/nanonmd.yml
-
+conda env create -n nanonmd -f environment/nanonmd_r002.yml
 ```
 
 ---

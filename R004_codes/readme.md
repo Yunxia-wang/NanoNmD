@@ -50,7 +50,7 @@ NanoNmD requires the `nanonmd` Conda environment.
 If the repository provides the environment file `nanonmd.yml`, create the environment with:
 
 ```bash
-conda env create -f nanonmd.yml
+conda env create -n nanonmd -f environment/nanonmd_r004.yml
 ```
 
 Then activate it:
